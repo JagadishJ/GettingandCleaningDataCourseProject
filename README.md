@@ -1,6 +1,5 @@
 ==================================================================
 Getting and Cleaning Data Course Project
-JagadishJ
 ==================================================================
 
 This script is used to read the Samsung data from the train and test folders and does the following actions:
