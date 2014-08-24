@@ -26,7 +26,7 @@ code inside run_analysis.R
 
 `tidydataset`: variable for calculated average of each variable for each activity and each subject
 
-##loading data
+##Loading data
 download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 read the following file:
 features.txt
@@ -38,16 +38,17 @@ Y_train.txt
 subject_test.txt
 subject_train.txt
 
-##manipulate data
+##Manipulate data
 manipulate the data as explained in the `read me.txt’ file and also based on the comments in the `run_analysis.R`
 
 sample data of the final solution
 > head(tidydataset, n=3)
 
 "subject" "activity" "activityname" "tBodyAccmeanX" "tBodyAccmeanY" "tBodyAccmeanZ" "tBodyAccstdX" "tBodyAccstdY" .......
-	5 	6 	"LAYING"     0.27963006307  -0.01731958593   -0.1048186111   -0.4207361465  -0.3182870105 .......
-	6 	6 	"LAYING"     0.27237661418  -0.01756970426   -0.1159945413   -0.5050860850  -0.3684036701 .......
-	7 	6 	"LAYING"     0.27021169781  -0.01879048876   -0.1124923753   -0.5775183247  -0.5464033653 .......
+	
+5 	6 	"LAYING"     0.27963006307  -0.01731958593   -0.1048186111   -0.4207361465  -0.3182870105 .......
+6 	6 	"LAYING"     0.27237661418  -0.01756970426   -0.1159945413   -0.5050860850  -0.3684036701 .......
+7 	6 	"LAYING"     0.27021169781  -0.01879048876   -0.1124923753   -0.5775183247  -0.5464033653 .......
 
 ##Writing final data to text file
 creates the output file called tidydata.txt and writes tidydataset data frame to the text file.
